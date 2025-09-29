@@ -1,0 +1,9 @@
+<h2>Articles Available</h2>
+
+<ol>
+  <% @articles.each do |article| %>
+    <li><%= article.name %><br>
+      <p><%= article.body %></p>
+    </li>
+  <% end %>
+</ol>
