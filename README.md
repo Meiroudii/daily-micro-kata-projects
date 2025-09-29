@@ -27,7 +27,7 @@ In order for you to benefit from this system, you're going to abide these:
     <li>Is there a directory sturcture should I follow?<br>
 Um...no, You can follow my directory structure which is:
 <br>
-<div style="text-align: center; background: black; color: green;">
+<div style="width: 100%; padding: 2rem; border: solid 30px lime; text-align: center; background: black; color: green;">
 project_name_dailes {
     project_name1.rb
     project_name2.rb
@@ -38,7 +38,7 @@ project_name_dailes {
 But at the end of the day it's up to you.
 Also, you can apply the bind method by creating new file to write from your human brain.
 <br>
-<div style="text-align: center; background: black; color: green;">
+<div style="width: 100%; padding: 2rem; border: solid 30px lime; text-align: center; background: black; color: green;">
 http_server_dailes {
     HTTP12.c
     HTTP12_2.c
@@ -52,7 +52,7 @@ Notice the `_n`?, That's your attempt from newly learned and memorized code snip
     <li>What if I want to write {SNS,SaaS,PaaS} clones?<br>
 The goal of this system is to write micro projects, but you can. It's possible to apply the system if you have really a deep commitment to your craft, here's my recommend directory structure for ya.
 <br>
-<div style="text-align: center; background: black; color: green;">
+<div style="width: 100%; padding: 2rem; border: solid 30px lime; text-align: center; background: black; color: green;">
 project_name_clone_dailes {
     project_name1
     project_name2
