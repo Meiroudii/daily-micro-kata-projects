@@ -1,3 +1,4 @@
+define_method(:factorial) { |n| (1..n).inject(1, :*) }
 
 def catalan(n)
   (0...n).map do |i|
