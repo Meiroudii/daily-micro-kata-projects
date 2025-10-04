@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <style>
+    body {
+      text-align: center;
+      font-family: 'STIX';
+        font-size: 2rem;
+      background: black;
+      color: white;
+    }
+    </style>
+  </head>
+  <body>
+    <h1>Editing {{.Title}}</h1>
+    <form action="/save/{{.Title}}" method="POST">
+      <textarea name="body" rows="20" cols="80">{{.Body}}</textarea><br>
+      <input type="submit" value="Save">
+    </form>
+  </body>
+</html>

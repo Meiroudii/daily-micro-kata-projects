@@ -1,8 +1,4 @@
 # Compiled class file
-/http_dailies/*.class
-
-# Log file
-/http_dailies/*.log
 
 # BlueJ files
 *.ctxt
@@ -23,7 +19,13 @@
 http_dailies/hs_err_pid*
 replay_pid*
 
-./http_dailies/a.out
+/http_server_dailies/*.class
+/http_server_dailies/*.log
+/http_server_dailies/a.out
+
+/http_client_dailies/*.class
+/http_client_dailies/*.log
+/http_client_dailies/a.out
 
 # See https://help.github.com/articles/ignoring-files for more about ignoring files.
 #
