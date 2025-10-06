@@ -13,36 +13,36 @@ import javax.swing.JFrame;
 class HTTP19 {
   private static JTextArea textarea;
 
-  public static void main(String[] args) {
+  public static void main(String[] args) throws IOException {
     JFrame http_main_frame = new JFrame("Logs");
-    setSize
-    setDefaultCloseOperation
+    http_main_frame.setSize(500, 500);
+    http_main_frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
     textarea = new JTextArea();
     textarea.setBackground(Color.BLACK);
-    textarea.setFore
-    set.Bac
-    set.Fo
-    setFont(new Font(), Font.PLAIN
-    http_main_frame.append(fuck);
+    textarea.setForeground(Color.GREEN);
+    textarea.setFont(new Font("Mono", Font.PLAIN, 33));
 
-    JSc new JS(textarea);
-    frame.add(JSC)
-    setVisible(true)
+    JScrollPane js = new JScrollPane(textarea);
+    http_main_frame.add(js);
+    http_main_frame.setVisible(true);
 
     ServerSocket s = new ServerSocket(3000);
     System.out.println("Server is now open");
     while (true) {
       try (Socket c = s.accept()) {
-
+        InputStreamReader isr = new InputStreamReader(c.getInputStream());
+        BufferedReader buf = new BufferedReader(isr);
+        String line = buf.readLine();
+        while (line != null && !line.isEmpty()) {
+          display_msg(line);
+          line = buf.readLine();
+        }
       } catch (IOException e) {
-        System.out.println(e.printStackTrace());
+        e.printStackTrace();
       }
     }
-
-
   }
-
   static void display_msg(String msg) {
     SwingUtilities.invokeLater(() -> {
       textarea.append(msg+"\n");
