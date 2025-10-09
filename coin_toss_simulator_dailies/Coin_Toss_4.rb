@@ -4,7 +4,7 @@ def tui()
   cmd = gets.chomp.split
   money = cmd[1].to_i
   coinflip = rand < 0.5 ? "heads" : "tails"
-  if cmd[0].downcase == "coinflip" || cmd[0].downcase == "cf"
+  if ["coinflip", "cf", "cointoss", "toss", "ct"].include?(cmd[0].downcase)
     if cmd[1].downcase == (rand < 0.5 ? "heads" : "tails") || cmd[1].downcase == (rand < 0.5 ? "h" : "t")
       puts "You won! you got #{money * 2}"
     else
