@@ -96,3 +96,5 @@ replay_pid*
 
 
 /coin_toss_simulator_dailies/*.class
+
+/*/*.class
