@@ -10,3 +10,5 @@ php artisan serve
 php artisan make:model Post -m
 php artisan migrate
 php artisan make:controller PostController
+
+rails new blog --skip-git
