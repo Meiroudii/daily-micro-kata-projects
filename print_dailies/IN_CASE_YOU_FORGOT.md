@@ -3,5 +3,6 @@ ld test.o
 
 cobc -x print.cob
 ./print.cob
+cobc -xjF print.cbl
 
 gfortran print.cob
