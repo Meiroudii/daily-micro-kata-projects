@@ -1,7 +1,7 @@
 1 basic_REST_api_dailies
 0 blog_page_dailies
 0 COMPLETION_COUNTER.md
-0 micro_chat_dailies
+1 micro_chat_dailies
 0 password_strength_checker_dalies
 0 simple_lottery_generator_dailies
 0 simple_web_scraper_dailies
