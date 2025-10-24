@@ -5,7 +5,7 @@ FULL COMPLETED DAILY COUNTER
 1 http_server_dailies
 1 palindrome_checker_dailies
 1 GUI_dailies
-0 http_client_dailies
+1 http_client_dailies
 
 
 OLD RECORD
