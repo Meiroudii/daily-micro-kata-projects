@@ -3,5 +3,5 @@
 0 regex_playground_dailies
 0 http_server_dailies
 0 palindrome_checker_dailies
-0 GUI_dailies
+1 GUI_dailies
 0 http_client_dailies
