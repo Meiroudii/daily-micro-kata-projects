@@ -1,0 +1,11 @@
+0 basic_data_exploration_dailies
+0 COMPLETION_COUNTER.md
+0 expense_report_from_CSV_dailies
+0 factorial_table_dailies
+0 GCD_and_LCM_dailies
+0 iris_classification_dailies
+0 modular_arithmetic_dailies
+1 multiplication_table_dailies
+0 random_sampling_from_array_dailies
+0 Sales_CSV_dailies
+0 unit_conversion_dailies
