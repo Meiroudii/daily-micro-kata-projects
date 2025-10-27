@@ -1,4 +1,3 @@
-
 def factorial_table(n)
   (0..n).map { |i| [i, factorial(i)] }.to_h
 end
