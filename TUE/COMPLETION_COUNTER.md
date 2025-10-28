@@ -1,8 +1,8 @@
 1 arithmetic_series_sum_dailies
-catalan_numbers_dailies
+1 catalan_numbers_dailies
 1 count_divisors_dailies
-cube_numbers_generator_dailies
-factorial_dailies
+1 cube_numbers_generator_dailies
+1 factorial_dailies
 fibonacci_sequence_array_dailies
 GCD_dailies
 geometric_series_sum_dailies

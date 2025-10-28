@@ -1,4 +1,3 @@
-
 def cubes(n)
   (1..n).map { |i| i**3 }
 end
