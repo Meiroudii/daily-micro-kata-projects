@@ -1,6 +1,5 @@
-arithmetic_series_sum_dailies
+1 arithmetic_series_sum_dailies
 catalan_numbers_dailies
-COMPLETION_COUNTER.md
 count_divisors_dailies
 cube_numbers_generator_dailies
 factorial_dailies
