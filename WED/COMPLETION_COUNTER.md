@@ -1,4 +1,4 @@
-0 binary_chop_dailies
+1 binary_chop_dailies
 1 binary_tree_dailies
 1 goroutines_dailies
 1 prime_factorization_dailies
