@@ -1,5 +1,5 @@
 2 binary_chop_dailies
 2 binary_tree_dailies
 2 goroutines_dailies
-1 prime_factorization_dailies
+2 prime_factorization_dailies
 1 prime_numbers_in_a_range_dailies
