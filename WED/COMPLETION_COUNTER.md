@@ -2,4 +2,4 @@
 2 binary_tree_dailies
 2 goroutines_dailies
 2 prime_factorization_dailies
-1 prime_numbers_in_a_range_dailies
+2 prime_numbers_in_a_range_dailies
