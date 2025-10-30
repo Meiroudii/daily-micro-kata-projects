@@ -41,10 +41,10 @@ public class atm_simulator_5_1 {
       String c = in.nextLine().trim();
       notif = "";
       switch(c) {
-        case "1" -> notify(String.format("Current Balance: %.2f", acc.get_bal()));
-        case "2" -> withdraw();
-        case "3" -> deposit();
-        case "4" -> {
+        case "1", "bal" -> notify(String.format("Current Balance: %.2f", acc.get_bal()));
+        case "2", "get cash" -> withdraw();
+        case "3", "give cash", "give" -> deposit();
+        case "4","q" -> {
           notify("SHUTTING DOWN");
           running = false;
         }
