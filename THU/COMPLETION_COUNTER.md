@@ -1,5 +1,5 @@
 FULL COMPLETED DAILY COUNTER
-1 dhcp_dailies
+2 dhcp_dailies
 1 print_dailies
 1 regex_playground_dailies
 1 http_server_dailies
