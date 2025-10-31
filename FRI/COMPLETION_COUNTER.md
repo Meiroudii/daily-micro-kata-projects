@@ -3,7 +3,7 @@
 0 COMPLETION_COUNTER.md
 1 micro_chat_dailies
 0 password_strength_checker_dalies
-0 simple_lottery_generator_dailies
+1 simple_lottery_generator_dailies
 0 simple_web_scraper_dailies
 0 statistical_basics_dailies
 0 text_editor_dailies
