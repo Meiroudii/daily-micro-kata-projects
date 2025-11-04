@@ -81,4 +81,5 @@ class atm_simulator_8 {
     new atm_simulator_8(0.0).__run__();
     System.out.println("Status: Power off");
   }
+  $get_input.close();
 }
