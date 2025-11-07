@@ -29,22 +29,35 @@ class atm_simulator_12 {
   }
   public void __show_menu__() {
     System.out.printf("""
-      %s
-      current balance: %.2f
-      1 withdraw
-      2 deposit
-      3 exit
-      >>>>>>>>>>>>>>>>>>>>>>> %s
+      \t\t____________________        _____________________________________________________
+      \t\t|                  |  |  |  |                                                   |
+      \t\t|%s        | \\___/       |     B A N K  S Y S T E M -------------------------|
+      \t\t|-------------------________|___________________________________________________|
+      \t\t|                           |                                                   |
+      \t\t|                           |  C U R R E N T  B A L A N C E: \r$%.2f            |
+      \t\t|-------------------________|___________________________________________________|
+      \t\t|-------------------________|___________________________________________________|
+      \t\t|________________________________________________^^^^^^_________________________|
+      \t\t|                                                                               |
+      \t\t|                             [1] WITHDRAW                                      |
+      \t\t|                                                                               |
+      \t\t|                             [2] DEPOSIT                                       |
+      \t\t|                                                                               |
+      \t\t|                             [3] EXIT                                          |
+      \t\t|                                                                               |
+      \t\t|                                                |%s|                         |
+      \t\t|________________________________________________^^^^^^_________________________|
     """, new Date(), $user.__view_balance__(), $flash_message);
   }
-  public void __loading_animation__() {
+  void __loading_animation__() {
     int total = 50;
 
+    System.out.println("\t"+"_".repeat(60));
+    System.out.println("\t"+"_".repeat(54)+"[?][-]");
     for (int i = 0; i <= total; i++) {
         int percent = (i * 100) / total;
         String bar = "=".repeat(i) + " ".repeat(total - i);
-        System.out.printf("\r[%s] %d%%", bar, percent);
-
+        System.out.printf("\r\t| [%s] %d%%", bar, percent);
         try {
             Thread.sleep(100);
         } catch (InterruptedException e) {
