@@ -2,7 +2,7 @@
 1 expense_report_from_CSV_dailies
 2 factorial_table_dailies
 0 GCD_and_LCM_dailies
-0 iris_classification_dailies
+1 iris_classification_dailies
 0 modular_arithmetic_dailies
 1 multiplication_table_dailies
 0 random_sampling_from_array_dailies
