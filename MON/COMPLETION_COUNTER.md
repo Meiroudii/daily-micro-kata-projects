@@ -1,5 +1,5 @@
 2 basic_data_exploration_dailies
-0 expense_report_from_CSV_dailies
+1 expense_report_from_CSV_dailies
 1 factorial_table_dailies
 0 GCD_and_LCM_dailies
 0 iris_classification_dailies
