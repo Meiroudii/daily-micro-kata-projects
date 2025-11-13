@@ -10,7 +10,7 @@ class HTTP31 {
     while(true) {
       try (Socket $c = $SERVER.accept()) {
         Date $today = new Date();
-        String $res = "HTTP/1.1 200 OK\r\n\r\n"+today;
+        String $res = "HTTP/1.1 200 OK\r\n\r\n"+$today;
         $c.getOutputStream().write($res.getBytes("UTF-8"));
       }
     }
