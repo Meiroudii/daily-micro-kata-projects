@@ -1,7 +1,8 @@
 class Binary_Search
   define_method(:recursive_binary_search) do |list, target|
     return false if list.empty?
-    mid = list.length/2
+
+    mid = list.length / 2
     if list[mid] == target
       true
     elsif list[mid] >= target

@@ -16,12 +16,12 @@ def chop(target, array)
 end
 
 def verify(i32)
-  i32 > 0 ? "Found!" : "Can't find em"
+  i32 > 0 ? 'Found!' : "Can't find em"
 end
 
-puts "First Experiment: target: 2"
-puts chop(2, [1,3,4,5,6])
-puts verify(chop(2, [1,3,4,5,6]))
-puts "Second Experiment: target: 2"
-puts verify(chop(2, [1,2,4,5,6]))
-puts chop(2, [1,2,4,5,6])
+puts 'First Experiment: target: 2'
+puts chop(2, [1, 3, 4, 5, 6])
+puts verify(chop(2, [1, 3, 4, 5, 6]))
+puts 'Second Experiment: target: 2'
+puts verify(chop(2, [1, 2, 4, 5, 6]))
+puts chop(2, [1, 2, 4, 5, 6])
