@@ -1,6 +1,5 @@
-mod guess_1;
-mod guess_2;
+mod guess_3;
 
 fn main() {
-    guess_2::main();
+    guess_3::guess();
 }
