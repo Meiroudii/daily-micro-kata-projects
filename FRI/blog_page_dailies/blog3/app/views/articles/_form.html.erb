@@ -1,0 +1,14 @@
+<div class="dark:text-white">
+  <h1><%= label %></h1>
+<%= form_with model: article do |form| %>
+  <% if form.object.errors.any? %>
+    <p><%= form.object.errors.full_messages.first %></p>
+  <% end %>
+  <fieldset class="flex flex-col">
+    <%= form.text_field :title, placeholder: "Enter Title" %>
+    <%= form.text_field :author, placeholder: "Author's Name" %>
+    <%= form.rich_textarea :content, placeholder: "..." %>
+    <%= form.submit %>
+  </fieldset>
+<% end %>
+</div>

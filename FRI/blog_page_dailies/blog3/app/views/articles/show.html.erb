@@ -1,0 +1,18 @@
+<section class="dark:text-white">
+  <ul class="flex justify-between">
+    <li>
+      <%= link_to "📝", edit_article_path(@article), title: "Edit article?"%>
+    </li>
+    <li>
+      <%= button_to "🗑️", @article, method: :delete, data: { turbo_confirm: "Are you sure?" } %>
+    </li>
+  </ul>
+  <p class="m-5 dark:text-zinc-500 hover:text-gray-600 duration-500 font-itallic">
+    <%= link_to "Home", root_path%> > <%= @article.title %>
+  </p>
+<h1><%= @article.title %></h1>
+<article class="whitespace-pre-line leading-relaxed">
+ <%= @article.content %>
+</article>
+</section>
+

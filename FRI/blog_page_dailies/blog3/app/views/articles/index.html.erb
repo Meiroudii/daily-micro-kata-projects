@@ -1,0 +1,21 @@
+<div class="overflow-x-auto">
+  <table class="min-w-full border-collapse text-left dark:text-zinc-200">
+    <thead class="bg-gray-100 dark:bg-gray-800">
+      <tr>
+        <th class="px-4 py-2">🧾</th>
+        <th class="px-4 py-2">👤</th>
+        <th class="px-4 py-2">🕰️</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <% @articles.each do |article| %>
+        <tr class="odd:bg-white even:bg-gray-50 dark:odd:bg-zinc-900 dark:even:bg-zinc-800">
+          <td class="px-4 py-2"><%= link_to article.title, article %></td>
+          <td class="px-4 py-2"><%= article.author %></td>
+          <td class="px-4 py-2"><%= article.created_at.strftime("%Y") %></td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+</div>
