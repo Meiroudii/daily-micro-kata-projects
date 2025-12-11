@@ -1,0 +1,7 @@
+<section class="flex flex-col justify-center items-center">
+  <%= link_to "Home", root_path %>
+<%= @blog.title %>
+<%= @blog.content %>
+<%= link_to "Update", edit_blog_path %>
+<%= button_to "Delete", @product, method: :delete %>
+</section>

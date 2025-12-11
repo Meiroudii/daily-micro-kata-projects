@@ -1,0 +1,14 @@
+<%= form_with model: blog do |form| %>
+  <fieldset class="bg-zinc-100 flex flex-col">
+  <legend><%= label %></legend>
+  <div>
+  <%= form.text_field :title, placeholder: "Title..." %>
+  </div>
+  <div>
+  <%= form.text_field :content, placeholder: "Content..." %>
+  </div>
+  <div>
+  <%= form.submit "Save" %>
+  </div>
+  </fieldset>
+<% end %>

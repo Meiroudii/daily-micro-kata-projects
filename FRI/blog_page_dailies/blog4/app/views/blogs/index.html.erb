@@ -1,0 +1,23 @@
+<% if @blogs.any? %>
+  <section class="flex flex-col"> 
+  <%= link_to "Write", new_blog_path %>
+<table>
+  <tbody>
+<% @blogs.each do |blog| %>
+    <tr>
+      <td>
+  <%= link_to blog.title, blog %>
+      </td>
+      <td>
+        <%= button_to "Delete", blog, method: :delete %>
+      </td>
+    </tr>
+<% end %>
+  </tbody>
+</table>
+  </section> 
+<% else %>
+  <section class="h-100 w-100 flex justify-center items-center">
+  <%= link_to "Write", new_blog_path, class: "text-4xl text-center" %>
+  </section>
+<% end %>
