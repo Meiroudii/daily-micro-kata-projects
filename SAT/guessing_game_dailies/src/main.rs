@@ -1,5 +1,5 @@
-mod guess_4;
+mod guess_5;
 
 fn main() {
-    guess_4::human_binary_search();
+    guess_5::guessing_game();
 }
