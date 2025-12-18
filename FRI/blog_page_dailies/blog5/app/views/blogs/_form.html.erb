@@ -1,0 +1,7 @@
+<%= form_with model: blog do |form| %>
+  <%= form.text_field :title, placeholder: "Title"%>
+  <%= form.number_field :version, placeholder: "Current Version" %>
+  <%= form.number_field :stock, placeholder: "Current Stock" %>
+  <%= form.text_field :content, placeholder: "Content..." %>
+  <%= form.submit "Publish" %>
+<% end %>

@@ -1,0 +1,8 @@
+<article>
+<%= @blog.title %>
+<%= @blog.content %>
+</article>
+<div>
+<%= link_to "Edit", edit_blog_path %>
+<%= button_to "Trash", @blog, method: :delete %>
+</div>
