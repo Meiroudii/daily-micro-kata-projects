@@ -1,0 +1,8 @@
+<% if @posts.any? %>
+  <% @posts.each do |post| %>
+    <%= link_to post.title, post %>
+  <% end %>
+<% else %>
+  <%= link_to "Write", new_post_path %>
+<% end %>
+  <%= link_to "Write", new_post_path %>
