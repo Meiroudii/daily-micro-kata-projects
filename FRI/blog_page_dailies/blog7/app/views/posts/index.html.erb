@@ -1,0 +1,15 @@
+<%= link_to "Write", new_post_path %>
+<h2>Posts</h2>
+<div>
+  <% if @posts.any? %>
+    <ul>
+      <% @posts.each do |post| %>
+        <li>
+        <%= link_to post.title, post %>
+        </li>
+      <% end %>
+    </ul>
+  <% else %>
+    <h2>NO POSTS YET</h2>
+  <% end %>
+</div>

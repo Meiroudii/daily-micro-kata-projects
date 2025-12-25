@@ -1,0 +1,7 @@
+<%= form_with(model: post) do |form| %>
+  <%= form.text_field :title, placeholder: "Title"%>
+  <br>
+  <%= form.textarea :content, placeholder: "Title"%>
+  <br>
+  <%= form.submit "Post" %>
+<% end %>
