@@ -1,5 +1,5 @@
-mod guess_6;
+mod guess_7;
 
 fn main() {
-    guess_6::guessing_game();
+    guess_7::guess_me();
 }

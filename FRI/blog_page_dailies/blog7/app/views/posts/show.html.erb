@@ -6,3 +6,9 @@
 <article>
   <%= @post.content %>
 </article>
+
+<div id="comment">
+  <%= render @post.comments %>
+</div>
+
+<%= turbo_frame_tag "new_comment", src: new_post_comment_path(@post), target: "_top" %>
