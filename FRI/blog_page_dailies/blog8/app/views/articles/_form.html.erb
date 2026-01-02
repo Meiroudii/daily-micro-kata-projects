@@ -1,0 +1,6 @@
+<%= form_with model: article do |form| %>
+  <%= form.text_field :author, placeholder: "Author Name" %>
+  <%= form.rich_textarea :content %>
+  <%= form.submit "Save" %>
+<% end %>
+

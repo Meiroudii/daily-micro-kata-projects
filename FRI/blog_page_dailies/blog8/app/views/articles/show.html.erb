@@ -1,0 +1,7 @@
+<article>
+  <p><em>by <%= @article.author %></em></p>
+  <%= @article.content %>
+</article>
+
+<%= button_to "Request for removal", @article, method: :delete %>
+<%= link_to "Update", edit_article_path %>
